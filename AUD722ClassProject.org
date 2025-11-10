@@ -1,5 +1,6 @@
 #+title: AUD722class Project
 
+* Concept
   The semester project for 2025-20206 class AUD722 is a multichannel sound installation featuring sounds designed and programmed by the students of the class. The students' contribution to the project, as well as their general participation throughout the implementation stages, will be the decisive factors for their final grade.
 
   The concept for the sound installation is based on the idea of an environment in which run several processes called "sound creatures". Each sound creature produces sound according to algorithms (programs) programmed by the students in SuperCollider and called "behaviors".  Each student is responsible for creating the behaviors for one sound creature.  
