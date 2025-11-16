@@ -2,7 +2,7 @@
 
 last updated: 16/11/25
 
-* Περιγραφή
+* Περιγραφή (Description)
 
 ** ελλ
 
@@ -20,3 +20,33 @@ The concept for the sound installation is based on the idea of a dynamic environ
 The behavior of the sound creatures change in response to a set of input parameters received from the environment. The algorithm that produces the input parameters through an algorithm is called "state" and affects the behaviors of all sound creatures. The environment changes between a set of states in the course of time.
 
 
+* Στάδια Υλοποίησης (Implementation Stages)
+
+** 01. Συστατικά Ηχητικού Πλάσματος (Sound Creature Components)
+
+Κάθε Ηχητικό Πλάσμα αποτελείται από το Σώμα και την Ψυχή. Το Σώμα είναι ένα σύνθετο ηχητικό σήμα από τον πραγματικό κόσμο, ενώ η Ψυχή ένα απλό αρμονικό σήμα που δε συναντάται στο φυσικό ακουστικό περιβάλλον. Ως εκ τούτου, κάθε φοιτητής/τρια καλείται να εισάγει στον κώδικα:
+α. ένα ηχητικό δείγμα διάρκειας 3 έως 5 δευτερολέπτων
+β. μια ημιτονοειδή κυματομορφή σε συχνότητα που επιθυμεί
+
+
+Every Sound Creature consists of a Body and a Soul. The Body is a complex sound signal from the real world, while the Soul is a simple harmonic signal not found in the natural acoustic environment. Therefore, students are asked to enter into their code:
+a. an audio sample of 3 to 5 seconds duration
+b. a sinewave of their desired frequency
+
+** 02. Αναπνοή (Breathing)
+
+Τα Ηχητικά Πλάσματα εκπέμπουν συνεχώς. Η σιωπή ισοδυναμεί με θάνατο.
+Η διαδικασία της αναπνοής περιλαμβάνει:
+α. τη σύζευξη Σώματος και Ψυχής (ring modulation?)
+β. τον Εσωτερικό Ρυθμό (looping + amplitude envelope)
+
+
+Sound Creatures transmit sound constantly. Silence equals death.
+The breathing process includes:
+a. intertwining Body and Soul (ring modulation?)
+b. shaping the Inner Rhythm (looping + amplitude envelope?)
+
+
+* Βιβλιογραφία (Bibliography)
+
+Rovithis, E., Mniestris, A., & Floros, A. (2014, October). Educational audio game design: sonification of the curriculum through a role-playing scenario in the audio game'Kronos'. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound (pp. 1-6).
