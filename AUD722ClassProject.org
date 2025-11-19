@@ -1,19 +1,19 @@
 #+title: AUD722class Project
 
-last updated: 16/11/25
+last updated: 19/11/25
 
 * Περιγραφή (Description)
 
 ** ελλ
 
-Η εργασία εξαμήνου για την τάξη 2025-20206 του μαθήματος AUD722 είναι συλλογική και αφορά στη δημιουργία πολυκαναλικής ηχητικής εγκατάστασης με ήχους σχεδιασμένους και προγραμματισμένους από τους φοιτητές της τάξης. Η προγραμματιστική/καλλιτεχνική συμβολή κάθε φοιτητή/τριας στο έργο, καθώς και η γενική συμμετοχή τους σε όλα τα στάδια της υλοποίησης, θα είναι οι καθοριστικοί παράγοντες για τον τελικό τους βαθμό.
+Η εργασία εξαμήνου για την τάξη 2025-2026 του μαθήματος AUD722 είναι συλλογική και αφορά στη δημιουργία πολυκαναλικής ηχητικής εγκατάστασης με ήχους σχεδιασμένους και προγραμματισμένους από τους φοιτητές της τάξης. Η προγραμματιστική/καλλιτεχνική συμβολή κάθε φοιτητή/τριας στο έργο, καθώς και η γενική συμμετοχή τους σε όλα τα στάδια της υλοποίησης, θα είναι οι καθοριστικοί παράγοντες για τον τελικό τους βαθμό.
 
 Η εννοιακή υπόσταση της ηχητικής εγκατάστασης βασίζεται στην ιδέα ενός δυναμικού περιβάλλοντος στο οποίο εκτελούνται διάφορες διεργασίες που ονομάζονται «ηχητικά πλάσματα». Κάθε ηχητικό πλάσμα παράγει ήχο σύμφωνα με αλγόριθμους (προγράμματα) που έχουν προγραμματιστεί από τους μαθητές στο SuperCollider και ονομάζονται «συμπεριφορές». Κάθε μαθητής είναι υπεύθυνος για τη δημιουργία των συμπεριφορών για ένα ηχητικό πλάσμα.
 
 Η συμπεριφορά των ηχητικών πλασμάτων αλλάζει ως απόκριση σε ένα σύνολο παραμέτρων εισόδου που λαμβάνονται από το περιβάλλον. Ο αλγόριθμος που παράγει τις παραμέτρους εισόδου μέσω ενός αλγορίθμου ονομάζεται "κατάσταση" και επηρεάζει τις συμπεριφορές όλων των ηχητικών πλασμάτων. Το περιβάλλον αλλάζει μεταξύ ενός συνόλου καταστάσεων με την πάροδο του χρόνου.
 
 ** eng
-The semester project for the 2025-20206 AUD722 class is collective and comprises the creation of a multichannel sound installation featuring sounds designed and programmed by the students of the class. The students' programming/artistic contribution to the project, as well as their general participation throughout the implementation stages, will be the decisive factors for their final grade.
+The semester project for the 2025-2026 AUD722 class is collective and comprises the creation of a multichannel sound installation featuring sounds designed and programmed by the students of the class. The students' programming/artistic contribution to the project, as well as their general participation throughout the implementation stages, will be the decisive factors for their final grade.
 
 The concept for the sound installation is based on the idea of a dynamic environment in which run several processes called "sound creatures". Each sound creature produces sound according to algorithms (programs) programmed by the students in SuperCollider and called "behaviors". Each student is responsible for creating the behaviors for one sound creature.  
 
@@ -37,13 +37,12 @@ b. a sinewave of their desired frequency
 
 Η διαδικασία της αναπνοής περιλαμβάνει:
 α. τη σύζευξη Σώματος και Ψυχής (ring modulation?)
-β. τον Εσωτερικό Ρυθμό (looping + amplitude envelope)
+β. τον Εσωτερικό Ρυθμό (amplitude envelope)
 
 
-Sound Creatures transmit sound constantly. Silence equals death.
 The breathing process includes:
 a. intertwining Body and Soul (ring modulation?)
-b. shaping the Inner Rhythm (looping + amplitude envelope?)
+b. shaping the Inner Rhythm (amplitude envelope?)
 
 
 * Βιβλιογραφία (Bibliography)
