@@ -35,7 +35,6 @@ b. a sinewave of their desired frequency
 
 ** 02. Αναπνοή (Breathing)
 
-Τα Ηχητικά Πλάσματα εκπέμπουν συνεχώς. Η σιωπή ισοδυναμεί με θάνατο.
 Η διαδικασία της αναπνοής περιλαμβάνει:
 α. τη σύζευξη Σώματος και Ψυχής (ring modulation?)
 β. τον Εσωτερικό Ρυθμό (looping + amplitude envelope)
