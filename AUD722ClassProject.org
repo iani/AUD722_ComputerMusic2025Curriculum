@@ -1,3 +1,33 @@
 #+title: AuD722class Project
 
 The semester project for class AUD722 is a multichannel sound installation presenting the sounds designed and programmed by the students of the class.  The concept for the sound installation is based on the idea of an environment in which run several processes called "sound creatures". Each sound creature produces sound according algorithms (programs) programmed by the students in SuperCollider and called "behaviors".  Each student is responsible for creating the behaviors for one sound creature.  Furthermore, each sound creature changes behavior according to a set of input parameters received from the environment.  The algorithm that produces the input parameters through an algorithm called "state".  The environment and sends these parameters to all sound creatures in order to guide their behaviors.  Additionally, the environment changes between a set of states in the course of time.
+
+* Περισσότερες πληροφορίες (παλιές σημειώσεις):
+
+** ελλ
+Η εργασία εξαμήνου για την τάξη 2025-2026 του μαθήματος AUD722 είναι συλλογική και αφορά στη δημιουργία πολυκαναλικής ηχητικής εγκατάστασης με ήχους σχεδιασμένους και προγραμματισμένους από τους φοιτητές της τάξης. Η προγραμματιστική/καλλιτεχνική συμβολή κάθε φοιτητή/τριας στο έργο, καθώς και η γενική συμμετοχή τους σε όλα τα στάδια της υλοποίησης, θα είναι οι καθοριστικοί παράγοντες για τον τελικό τους βαθμό.
+
+Η εννοιακή υπόσταση της ηχητικής εγκατάστασης βασίζεται στην ιδέα ενός δυναμικού περιβάλλοντος στο οποίο εκτελούνται διάφορες διεργασίες που ονομάζονται «ηχητικά πλάσματα». Κάθε ηχητικό πλάσμα παράγει ήχο σύμφωνα με αλγόριθμους (προγράμματα) που έχουν προγραμματιστεί από τους μαθητές στο SuperCollider και ονομάζονται «συμπεριφορές». Κάθε μαθητής είναι υπεύθυνος για τη δημιουργία των συμπεριφορών για ένα ηχητικό πλάσμα.
+
+Η συμπεριφορά των ηχητικών πλασμάτων αλλάζει ως απόκριση σε ένα σύνολο παραμέτρων εισόδου που λαμβάνονται από το περιβάλλον. Ο αλγόριθμος που παράγει τις παραμέτρους εισόδου μέσω ενός αλγορίθμου ονομάζεται “κατάσταση” και επηρεάζει τις συμπεριφορές όλων των ηχητικών πλασμάτων. Το περιβάλλον αλλάζει μεταξύ ενός συνόλου καταστάσεων με την πάροδο του χρόνου.
+
+** eng
+The semester project for the 2025-2026 AUD722 class is collective and comprises the creation of a multichannel sound installation featuring sounds designed and programmed by the students of the class. The students’ programming/artistic contribution to the project, as well as their general participation throughout the implementation stages, will be the decisive factors for their final grade.
+
+The concept for the sound installation is based on the idea of a dynamic environment in which run several processes called “sound creatures”. Each sound creature produces sound according to algorithms (programs) programmed by the students in SuperCollider and called “behaviors”. Each student is responsible for creating the behaviors for one sound creature.
+
+The behavior of the sound creatures change in response to a set of input parameters received from the environment. The algorithm that produces the input parameters through an algorithm is called “state” and affects the behaviors of all sound creatures. The environment changes between a set of states in the course of time.
+
+Στάδια Υλοποίησης (Implementation Stages)
+01. Συστατικά Ηχητικού Πλάσματος (Sound Creature Components)
+Κάθε Ηχητικό Πλάσμα αποτελείται από το Σώμα και την Ψυχή. Το Σώμα είναι ένα σύνθετο ηχητικό σήμα από τον πραγματικό κόσμο, ενώ η Ψυχή ένα απλό αρμονικό σήμα που δε συναντάται στο φυσικό ακουστικό περιβάλλον. Ως εκ τούτου, κάθε φοιτητής/τρια καλείται να εισάγει στον κώδικα: α. ένα ηχητικό δείγμα διάρκειας 3 έως 5 δευτερολέπτων β. μια ημιτονοειδή κυματομορφή σε συχνότητα που επιθυμεί
+
+Every Sound Creature consists of a Body and a Soul. The Body is a complex sound signal from the real world, while the Soul is a simple harmonic signal not found in the natural acoustic environment. Therefore, students are asked to enter into their code: a. an audio sample of 3 to 5 seconds duration b. a sinewave of their desired frequency
+
+02. Αναπνοή (Breathing)
+Η διαδικασία της αναπνοής περιλαμβάνει: α. τη σύζευξη Σώματος και Ψυχής (ring modulation?) β. τον Εσωτερικό Ρυθμό (amplitude envelope)
+
+The breathing process includes: a. intertwining Body and Soul (ring modulation?) b. shaping the Inner Rhythm (amplitude envelope?)
+
+Βιβλιογραφία (Bibliography)
+Rovithis, E., Mniestris, A., & Floros, A. (2014, October). Educational audio game design: sonification of the curriculum through a role-playing scenario in the audio game’Kronos’. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound (pp. 1-6).
