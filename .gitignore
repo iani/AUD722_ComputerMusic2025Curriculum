@@ -4,5 +4,5 @@
 tmp/
 
 
-.projectile.eld
-.projectile.elc
+.projectile-cache.eld
+.projectile-cache.elc
