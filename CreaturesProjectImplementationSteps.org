@@ -18,20 +18,31 @@ Each of you will design and program one "sound creature" that inhabits this fore
 
 **2. The Environment: The Sentient Forest**
 
-The environment is the master controller of the installation. It will be a central SuperCollider program that cycles through a predefined set of states. These states follow a narrative arc:
+The environment is the master controller of the installation. It will be a central SuperCollider program that cycles through a predefined set of states. These states can follow a narrative arc.
+
+**2.1 Option: Day-Night Cycle**
 
 *   **Dawn:** The forest is waking up. The sun is rising, and the air is cool and damp.
 *   **Day:** The forest is alive with activity. The sun is bright, and the creatures of the forest are foraging and communicating.
 *   **Dusk:** The sun is setting, and the forest is preparing for night. The mood is calm and peaceful.
 *   **Night:** The forest is dark and mysterious. The nocturnal creatures emerge, and the sounds of the day are replaced by the sounds of the night.
+
+**2.2 Option: Weather**
+
 *   **Storm:** A sudden storm rolls in, with wind, rain, and thunder. The creatures of the forest take shelter.
+*   **Sunlight:** The amount of sunlight (0.0 at night, 1.0 at the peak of the day).
+*   **Temperature:** The temperature of the forest (0.0 during the coldest part of the night, 1.0 during the warmest part of the day).
+*   **Humidity:** The amount of moisture in the air (increases during the storm).
+*   **Wind Speed:** The intensity of the wind (peaks during the storm).
+
+**2.3 Option: Evolutionary**
+
+*   **Hunger:** The creatures take actions to find food, including hunting, grabbing plants, setting traps
+*   **Reproduction:** The creatures mate and/or take care of their offspring
+*   **Danger:** The creatures face danger by entering the "fight or flight" mode
 
 For each state, the environment will broadcast a set of parameters to all the sound creatures via OSC messages. These parameters will be normalized values (0.0 to 1.0):
 
-*   `~sunlight`: The amount of sunlight (0.0 at night, 1.0 at the peak of the day).
-*   `~temperature`: The temperature of the forest (0.0 during the coldest part of the night, 1.0 during the warmest part of the day).
-*   `~humidity`: The amount of moisture in the air (increases during the storm).
-*   `~wind_speed`: The intensity of the wind (peaks during the storm).
 
 **3. Your Task: The Sound Creature**
 
