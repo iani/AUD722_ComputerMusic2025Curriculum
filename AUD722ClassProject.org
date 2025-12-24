@@ -1,79 +1,78 @@
-#+title: AUD722class Project
+#+title: Evolab
 #+author: Iannis Zannos, Emmanouel Rovithis
 
-last updated: 22/12/25
+last updated: 24/12/25
 
 * Γενική Περιγραφή (Γενική Description)
 
 ** ελλ
 
-Η εργασία εξαμήνου για την τάξη 2025-2026 του μαθήματος AUD722 είναι συλλογική και αφορά στη δημιουργία μιας πολυκαναλικής ηχητικής εγκατάστασης με ήχους σχεδιασμένους και προγραμματισμένους από τους φοιτητές της τάξης. Η προγραμματιστική/καλλιτεχνική συμβολή κάθε φοιτητή/τριας στο έργο, καθώς και η γενική συμμετοχή τους σε όλα τα στάδια της υλοποίησης, θα είναι οι καθοριστικοί παράγοντες για τον τελικό τους βαθμό.
+Η εργασία εξαμήνου για την τάξη 2025-2026 του μαθήματος AUD722 είναι συλλογική. Οι φοιτητές/τριες θα δημιουργήσουν την πολυκαναλική ηχητική εγκατάσταση "Evolab" με ήχους σχεδιασμένους και προγραμματισμένους από τους ίδιους/ες στο SuperCollider. Η προγραμματιστική/καλλιτεχνική συμβολή κάθε φοιτητή/τριας στο έργο και η γενική συμμετοχή τους κατά τη διάρκεια του εξαμήνου θα καθορίσουν τον τελικό τους βαθμό.
 
-Η εννοιακή υπόσταση της ηχητικής εγκατάστασης βασίζεται στην ιδέα ενός δυναμικού περιβάλλοντος στο οποίο εκτελούνται διάφορες διεργασίες που ονομάζονται «ηχητικά πλάσματα». Κάθε ηχητικό πλάσμα παράγει ήχο σύμφωνα με αλγόριθμους (προγράμματα) που έχουν προγραμματιστεί από τους/τις φοιτητές/τριες στο SuperCollider και ονομάζονται «συμπεριφορές». Κάθε φοιτητής/τρια είναι υπεύθυνος/η για τη δημιουργία ενός ηχητικού πλάσματος και των συμπεριφορών του.
+Η ηχητική εγκατάσταση αναπαριστά ένα δυναμικό ηχητικό περιβάλλον, στο οποίο εκτελούνται διάφορες διεργασίες που ονομάζονται ηχητικά πλάσματα. Κάθε ηχητικό πλάσμα παράγει ήχο σύμφωνα με αλγόριθμους (προγράμματα) που ονομάζονται συμπεριφορές. Κάθε φοιτητής/τρια είναι υπεύθυνος/η για τη δημιουργία ενός ηχητικού πλάσματος και των συμπεριφορών του.
 
-Το περιβάλλον ακολουθεί τον εσωτερικό του χρόνο και λογική, δια μέσω μιας ακολουθίας "καταστάσεων" Κάθε κατάσταση είναι ένας αλγόριθμος που παράγει τις παραμέτρους εισόδου, οι οποίες επηρεάζουν τις συμπεριφορές όλων των ηχητικών πλασμάτων. Έτσι, τα ηχητικά πλάσματα αποκρίνονται στα ερεθίσματα που λαμβάνουν από το περιβάλλον. 
+Το περιβάλλον εκπέμπει διάφορες καταστάσεις. Κάθε κατάσταση είναι ένας αλγόριθμος που παράγει τις παραμέτρους εισόδου, οι οποίες επηρεάζουν τις συμπεριφορές όλων των ηχητικών πλασμάτων. 
 
 ** eng
-The semester project for the 2025-2026 AUD722 class is collective and comprises the creation of a multichannel sound installation featuring sounds designed and programmed by the students of the class. The students' programming/artistic contribution to the project, as well as their general participation throughout the implementation stages, will be the decisive factors for their final grade.
 
-The concept for the sound installation is based on the idea of a dynamic environment in which several processes run, which are called "sound creatures". Each sound creature produces sound according to algorithms (programs) programmed by the students in SuperCollider and called "behaviors". Each student is responsible for creating one sound creature and it behaviors.  
+The semester project for the 2025-2026 AUD722 class is collective. The students will create the multichannel sound installation "EvoLab" featuring sounds designed and programmed by themselves in SuperCollider. The students' programming/artistic contribution to the project and their general participation throughout the semester will define their final grade.
 
-The environment has its own internal clock and logic, cycling through a series of "states". Each state is an algorithm that produces the input parameters that affect the behaviors of all sound creatures. In that way the sound creatures respond to the stimuli received from the environment.
+The sound installation represents a dynamic audio environment in which several processes run, which are called sound creatures. Each sound creature produces sound according to algorithms (programs) called behaviors. Each student is responsible for creating one sound creature and its behaviors.  
+
+The environment transmits different states. Each state is an algorithm producing input parameters that affect the behaviors of all sound creatures.
 
 
 * Ηχητικό Πλάσμα (Sound Creature)
 
 ** ελλ
-Κάθε Ηχητικό Πλάσμα αποτελείται από το Σώμα και την Ψυχή. Το Σώμα είναι ένα ηχητικό δείγμα από τον πραγματικό κόσμο, ενώ η Ψυχή μια ταλάντωση που δε συναντάται στο φυσικό ακουστικό περιβάλλον. Ως εκ τούτου, κάθε φοιτητής/τρια καλείται να εισάγει στον κώδικα:
+Κάθε Ηχητικό Πλάσμα αποτελείται από το Σώμα και την Ψυχή. Το Σώμα είναι ένα ηχητικό δείγμα από τον πραγματικό κόσμο, ενώ η Ψυχή μια ταλάντωση που δε συναντάται στο φυσικό ακουστικό περιβάλλον.
+
+Ως εκ τούτου, κάθε φοιτητής/τρια ξεκινάει τον κώδικά του/της εισάγοντας:
 
 α. ένα αρχείο .wav διάρκειας 3 έως 5 δευτερολέπτων
 β. μία γεννήτρια ταλάντωσης στη συχνότητα που επιθυμεί
 
-Επίσης:
+Έπειτα:
 γ. η σύνδεση ανάμεσα σε Σώμα και Ψυχή γίνεται μέσω Ring Modulation.
 δ. το σχήμα του Ηχητικού Πλάσματος διαμορφώνεται από Amplitude Envelope.
-... τα υπόλοιπα χαρακτηριστικά υπόκεινται στη φαντασία κάθε συμμετέχοντα/ουσας δημιουργού. 
+
+Τα υπόλοιπα χαρακτηριστικά του Ηχητικού Πλάσματος υπόκεινται στη φαντασία κάθε συμμετέχοντα/ουσας δημιουργού. 
 
 
 ** eng
-Every Sound Creature consists of the Body and the Soul. The Body is an audio sample from the real world, while the Soul is an oscillation not found in the natural acoustic environment. Therefore, each student is asked to enter into the code:
+Each Sound Creature consists of the Body and the Soul. The Body is an audio sample from the real world, while the Soul is an oscillation not found in the natural acoustic environment.
+
+Therefore, each student starts their code by entering:
 
 a. a .wav file lasting 3 to 5 seconds
 b. an oscillation generator at the desired frequency
 
-Also:
+Then:
 c. the connection between Body and Soul is made through Ring Modulation.
 d. the shape of the Sound Creature is formed by Amplitude Envelope.
-... the remaining characteristics are subject to the imagination of each participating creator.
+
+The remaining characteristics of the Sound Creature are subject to the imagination of each participating creator.
 
 
-* Στάδια Περιβάλλοντος (Environment Stages)
+* Καταστάσεις Περιβάλλοντος (Environment States)
 
 ** ελλ
-Κάθε Ηχητικό Πλάσμα ακολουθεί ένα Κιρκάδιο ρυθμό που ρυθμίζει τη συμπεριφορά του μέσα στο 24ωρο. Ως εκ τούτου, αποκρίνεται στα περιοδικά Στάδια:
-1α. αυγή
-1β. ημέρα
-1γ. σούρουπο
-1δ. νύχτα
+Οι παρακάτω περιοδικές Καταστάσεις επηρεάζουν τον Κιρκάδιο Ρυθμό κάθε Ηχητικού Πλάσματος:
+1. αυγή
+2. ημέρα
+3. σούρουπο
+4. νύχτα
 
-Επιπλέον, στο περιβάλλον λαμβάνουν χώρα μη περιοδικά Στάδια που σηματοδοτούν έκτακτες συνθήκες. Συγκεκριμένα:
-2α. Κίνδυνος " "
-2β. Κίνδυνος " "
-2γ. Κίνδυνος " "
+Mη-περιοδικά προκύπτει η Κατάσταση:
+5. Κίνδυνος
 
 ** eng
-Every Sound Creature follows a Circadian rhythm that regulates its behavior within 24 hours. Therefore, it responds to the periodic Stages of:
-1a. dawn
-1b. day
-1c. dusk
-1d. night
+The following periodic states affect the Circadian rhythm of Every Sound Creature:
+1. dawn
+2. day
+3. dusk
+4. night
 
-In addition, non-periodic Stages occur in the environment that signal emergency conditions. Specifically:
-2a. Danger " "
-2b. Danger " "
-2c. Danger " "
+Non-periodically occurs the State:
+2. Danger
 
-
-* Βιβλιογραφία (Bibliography)
-
-Rovithis, E., Mniestris, A., & Floros, A. (2014, October). Educational audio game design: sonification of the curriculum through a role-playing scenario in the audio game'Kronos'. In Proceedings of the 9th Audio Mostly: A Conference on Interaction With Sound (pp. 1-6).
